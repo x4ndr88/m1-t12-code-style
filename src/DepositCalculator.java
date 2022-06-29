@@ -11,8 +11,8 @@ public class DepositCalculator {
     }
 
     double round(double value, int floatPointPlace) {
-        double scaLe = Math.pow(10, floatPointPlace);
-        return Math.round(value * scaLe) / scaLe;
+        double scale = Math.pow(10, floatPointPlace);
+        return Math.round(value * scale) / scale;
     }
 
     void runDepositCalculatePercentTask() {
